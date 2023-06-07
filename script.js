@@ -63,6 +63,21 @@ $(document).ready(function () {
       $(".card-3").removeClass("moveFromRight");
     }
   });
+
+  // gallery 4
+  lightbox.option({
+    wrapAround: true,
+  });
+
+  $(window).scroll(function () {
+    let position = $(this).scrollTop();
+
+    if (position >= 350) {
+      $(".gallery").addClass("change");
+    } else {
+      $(".gallery").removeClass("change");
+    }
+  });
 });
 
 ///////////////////////////////////////
