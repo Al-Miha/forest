@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="title icon" type="image/png" href="img/title-img3.png" /> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="img/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="img/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Forest Mushrooms</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Nunito+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top nav-menu">
+      <!-- <a href="#" class="navbar-brand text-light text-uppercase"
+          ><span class="h2 fw-bold">forest</span
+            ><span class="h2"> Mushrooms</span></a
+            > -->
+
+      <!-- <a href="#" class="navbar-brand d-block">
+        <div class="d-flex flex-column align-items-center mb-3 logo">
+          <span class="h5 mb-0 forest"
+            >forest
+            <img
+              src="img/mushroom-logo-28.35.jpg"
+              alt="mushroom logo"
+              class="img-fluid"
+            />
+          </span>
+          <span class="h5 mb-0 mushrooms"> mushrooms</span>
+        </div>
+      </a> -->
+      <button
+        class="navbar-toggler nav-button ms-auto"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#myNavbar"
+      >
+        <div class="bg-light line1"></div>
+        <div class="bg-light line2"></div>
+        <div class="bg-light line3"></div>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end text-uppercase fw-bold nav-centering"
+        id="myNavbar"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a href="index.html" class="nav-link menu-item">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="index.html" class="nav-link menu-item">Mission</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="index.html" class="nav-link menu-item">Collection</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="#" class="nav-link menu-item">Gallery</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="index.html" class="nav-link menu-item">Customers</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="events.html" class="nav-link menu-item">Events</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="index.html" class="nav-link menu-item">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- gallery -->
+    <section class="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-5">
+            <h1 class="mt-5 text-center">Our gallery</h1>
+            <div class="underline-green mx-auto mb-3"></div>
+          </div>
+        </div>
+        <div class="row mb-4 first-row align-items-end">
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto mb-4">
+            <a
+              href="img/mus1.jpg"
+              data-lightbox="mushrooms"
+              data-title="Forest"
+            >
+              <img src="img/mus1.jpg" class="img-thumbnail gallery-img" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto mb-4">
+            <a
+              href="img/mus2.jpg"
+              data-lightbox="mushrooms"
+              data-title="Porcini mushroom"
+            >
+              <img src="img/mus2.jpg" class="img-thumbnail gallery-img" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto mb-4">
+            <a
+              href="img/mus3.jpg"
+              data-lightbox="mushrooms"
+              data-title="Porcini mushroom"
+            >
+              <img src="img/mus3.jpg" class="img-thumbnail gallery-img" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto mb-4">
+            <a
+              href="img/mus4.jpg"
+              data-lightbox="mushrooms"
+              data-title="Chanterelle mushrooms"
+            >
+              <img src="img/mus4.jpg" class="img-thumbnail gallery-img" />
+            </a>
+          </div>
+        </div>
+        <div class="row mb-4 second-row align-items-end">
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto mb-4">
+            <a
+              href="img/mus5.jpg"
+              data-lightbox="mushrooms"
+              data-title="Dried Porcini mushrooms"
+            >
+              <img src="img/mus5.jpg" class="img-thumbnail gallery-img" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto mb-4">
+            <a
+              href="img/mus6.jpg"
+              data-lightbox="mushrooms"
+              data-title="Dried Porcini mushrooms - commercial mix"
+            >
+              <img src="img/mus6.jpg" class="img-thumbnail gallery-img" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto mb-4">
+            <a
+              href="img/mus7.jpg"
+              data-lightbox="mushrooms"
+              data-title="Oyster mushroom"
+            >
+              <img src="img/mus7.jpg" class="img-thumbnail gallery-img" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto mb-4">
+            <a
+              href="img/mus8.jpg"
+              data-lightbox="mushrooms"
+              data-title="Morel mushroom"
+            >
+              <img src="img/mus8.jpg" class="img-thumbnail gallery-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of gallery -->
+
+    <!-- footer -->
+    <footer class="px-5 pt-3" id="footer">
+      <div class="container-fluid">
+        <div class="row text-light py-4">
+          <div class="col-lg-4 col-sm-6">
+            <h5 class="pb-2">Forest Mushrooms</h5>
+            <p class="small mb-0">Handpicked wild forest mushrooms.</p>
+            <p class="small mb-0">Premium quality and nutrition rich.</p>
+            <p class="small">
+              Fresh in the season, dried or frozed during the year.
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <h5 class="pb-2">Quick links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="index.html" class="footer-link text-decoration-none"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="index.html" class="footer-link text-decoration-none"
+                  >Mission</a
+                >
+              </li>
+              <li>
+                <a href="index.html" class="footer-link text-decoration-none"
+                  >Collection</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footer-link text-decoration-none">Gallery</a>
+              </li>
+              <li>
+                <a href="index.html" class="footer-link text-decoration-none"
+                  >Customers</a
+                >
+              </li>
+              <li>
+                <a href="events.html" class="footer-link text-decoration-none"
+                  >Events</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footer-link text-decoration-none">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <h5 class="pb-2">Contact details</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="tel:+48111111111"
+                  class="footer-link text-decoration-none"
+                  >Phone: +48 111 11 11</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info.forest.mushrooms@gmail.com"
+                  class="footer-link text-decoration-none"
+                  >Email: info.forest.mushrooms@gmail.com</a
+                >
+              </li>
+              <li class="footer-link">
+                Address: Feliksa Wrobela, 30-798 Krakow, Poland
+              </li>
+              <li class="footer-link">Opening hours: Mon-Fri 9am-5pm</li>
+              <li>
+                <a
+                  href="mailto:customers.forest.mushrooms@gmail.com"
+                  class="footer-link text-uppercase text-decoration-none"
+                  >Customer support</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center text-light border-top pt-3">
+            <p>&copy; 2023 Copyright. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="js/jquery-3.7.0-min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -16,23 +16,23 @@ $(document).ready(function () {
     wrapAround: true,
   });
 
-  $(window).scroll(function () {
-    let position = $(this).scrollTop();
+  // $(window).scroll(function () {
+  //   let position = $(this).scrollTop();
 
-    if (position >= 350) {
-      $(".gallery").addClass("change");
-    } else {
-      $(".gallery").removeClass("change");
-    }
-  });
-  $(window).scroll(function () {
-    let position = $(this).scrollTop();
-    if (position >= 200) {
-      $(".nav-menu").addClass("custom-navbar");
-    } else {
-      $(".nav-menu").removeClass("custom-navbar");
-    }
-  });
+  //   if (position >= 50) {
+  //     $(".gallery").addClass("change");
+  //   } else {
+  //     $(".gallery").removeClass("change");
+  //   }
+  // });
+  // $(window).scroll(function () {
+  //   let position = $(this).scrollTop();
+  //   if (position >= 200) {
+  //     $(".nav-menu").addClass("custom-navbar");
+  //   } else {
+  //     $(".nav-menu").removeClass("custom-navbar");
+  //   }
+  // });
 
   // $(window).scroll(function () {
   //   let position = $(this).scrollTop();
@@ -95,7 +95,7 @@ const revealSection = function (entries, observer) {
 
 const sectionObserver = new IntersectionObserver(revealSection, {
   root: null,
-  threshold: 0.2,
+  threshold: 0.25,
 });
 
 allSections.forEach(function (section) {
@@ -103,6 +103,21 @@ allSections.forEach(function (section) {
   section.classList.add("section--hidden");
 });
 
+// navbar to show on small screen
+
+// const navBtn = document.querySelector(".nav-button");
+// const navEl = document.querySelector(".navbar");
+// navBtn.addEventListener("click", () => {
+//   const attribute = navBtn.getAttribute("aria-expanded");
+
+//   console.log(attribute);
+//   if (attribute === "true") {
+//     console.log("it is true");
+//     navEl.classList.add("nav-menu");
+//   } else {
+//     navEl.classList.remove("nav-menu");
+//   }
+// });
 // const navLinks = document.querySelectorAll(".nav-item");
 // const menuToggle = document.getElementById("myNavbar");
 //const navBtn = document.querySelector(".nav-button");

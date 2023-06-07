@@ -40,12 +40,12 @@ header {
 }
 
 .nav-centering {
-  padding: 20px;
+  justify-content: flex-end;
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 992px) {
   .nav-centering {
-    padding: 20px 180px;
+    justify-content: center !important;
   }
 }
 
@@ -88,13 +88,13 @@ header {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-.custom-navbar {
+/* .custom-navbar {
   padding: 5px 30px;
   background: linear-gradient(
     rgba(255, 255, 255, 0.97),
     rgba(255, 255, 255, 0.97)
   );
-}
+} */
 
 /* ---Underline Effect---Navbar */
 @media screen and (min-width: 992px) {
@@ -615,7 +615,7 @@ iframe {
   transform: scale(1.05);
 }
 
-.first-row {
+/* .first-row {
   transform: translateX(-300px);
   opacity: 0;
   transition: all 2.5s;
@@ -631,7 +631,7 @@ iframe {
 .change .second-row {
   transform: translateX(0);
   opacity: 1;
-}
+} */
 /* end of gallery */
 
 /* footer */
