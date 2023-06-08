@@ -376,7 +376,7 @@ header {
 /* gallery */
 
 #gallery {
-  padding: 150px 0;
+  padding: 150px 0 75px 0;
 }
 .underline-dark {
   width: 150px;
