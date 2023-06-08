@@ -172,9 +172,7 @@ header {
   background-image: linear-gradient(
     to right,
     rgb(0, 110, 51),
-    rgb(218, 165, 32),
-    rgb(204, 165, 128),
-    rgb(0, 110, 51)
+    rgb(218, 165, 32)
   );
   background-clip: text;
   -webkit-background-clip: text;
