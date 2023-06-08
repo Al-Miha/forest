@@ -374,6 +374,10 @@ header {
 /* end of collection */
 
 /* gallery */
+
+#gallery {
+  padding: 150px 0;
+}
 .underline-dark {
   width: 150px;
   border: 3px solid #888;
@@ -496,81 +500,11 @@ header {
 /*  end of pricing */
 
 /* contact */
-.contact {
-  background: linear-gradient(
-      105deg,
-      rgba(21, 31, 32, 1) 0%,
-      rgba(21, 31, 32, 0.95) 50%,
-      transparent 50%
-    ),
-    url(img/form-img.jpeg) no-repeat center center / cover;
-}
-
-.input {
-  background: transparent;
-  border-color: transparent;
-  border-bottom: 2px solid #ccc;
-  border-radius: 0;
-  transition: all 0.8s;
-}
-
-input::placeholder {
-  color: red;
-  opacity: 1;
-}
-
-.input:focus {
-  background: transparent;
-  border-color: transparent;
-  box-shadow: none;
-  color: #fff;
-  border-bottom: 2px solid #f5593d;
-}
-
-.submit-button {
-  background: #f5593d;
-  color: #eee;
-  transition: all 0.3s;
-}
-
-.submit-button:hover {
-  background: #f9793d;
-  transform: translateY(-3px);
-}
-
-.label {
-  color: #777;
-  display: block;
-  margin-top: -70px;
-  margin-left: 4px;
-  font-size: 13px;
-  transition: all 0.3s;
-}
-
-::placeholder {
-  color: #777 !important;
-}
-.input:placeholder-shown + .label {
-  transform: translate(20px, 20px);
-  opacity: 0;
-  visibility: hidden;
-}
-
-@media (max-width: 992px) {
-  .contact {
-    background: linear-gradient(rgba(21, 31, 32, 1), rgba(21, 31, 32, 0.95));
-  }
-
-  .contact-form {
-    width: 80%;
-    margin: auto;
-  }
-}
-/* end of contact */
 
 /* CONTACTS */
-#contacts {
+#contact {
   background: #f8f8f8;
+  padding: 150px 0;
 }
 
 .btn-custom {
