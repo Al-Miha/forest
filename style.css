@@ -49,6 +49,15 @@ header {
   }
 }
 
+.nav-centering-logo {
+  padding: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-centering-logo {
+    padding: 20px 180px;
+  }
+}
 .menu-item {
   font-size: 14px;
   letter-spacing: 1px;
