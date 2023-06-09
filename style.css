@@ -579,6 +579,31 @@ iframe {
 #events {
   padding: 150px 0 75px 0;
 }
+
+#events h1 {
+  font-weight: 500;
+  font-size: 34px;
+  color: rgb(0, 110, 51);
+}
+.underline-long {
+  height: 2px;
+  background: #daa520;
+  margin: 0;
+  margin-bottom: 40px;
+  border: 0;
+}
+
+#events p {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#events .event-title {
+  font-weight: 500;
+  font-size: 34px;
+  color: #333;
+}
 /* END OF EVENTS */
 
 /* footer */
