@@ -103,6 +103,32 @@ allSections.forEach(function (section) {
   section.classList.add("section--hidden");
 });
 
+// SCROLL-UP FUNCTION
+const myButton = document.getElementById("myBtn");
+
+// when user scroll down 100 px from the top of the document, show the button
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 100 ||
+    document.documentElement.scrollTop > 100
+  ) {
+    console.log("scrolled");
+    myButton.style.display = "block";
+  } else {
+    myButton.style.display = "none";
+  }
+}
+
+myButton.addEventListener("click", () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
+
 // navbar to show on small screen
 
 // const navBtn = document.querySelector(".nav-button");

@@ -633,3 +633,30 @@ iframe {
   text-decoration: none;
 }
 /* end of footer */
+
+/* SCROLL-UP BUTTON */
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999;
+  border: none;
+  outline: none;
+  background-color: red;
+  background: rgb(0, 110, 51);
+  background: #808000;
+  color: #fff;
+  /* padding: 15px; */
+  /* border-radius: 10px; */
+  font-size: 18px;
+  cursor: pointer;
+  /* display: block; */
+  display: none;
+  width: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+}
+#myBtn:hover {
+  background: rgb(2, 150, 71);
+  background: rgb(218, 165, 32);
+}
