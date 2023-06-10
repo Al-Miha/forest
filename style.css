@@ -129,12 +129,15 @@ header {
     content: "";
     height: 3px;
     transition: all 0.4s;
+    /* remove display for animation effect + remove display on hover below */
+    display: none;
   }
 
   .navbar .navbar-nav .nav-item:hover::after {
     left: 0;
     width: 70%;
     width: 100%;
+    display: block;
   }
 }
 /* end of navbar */
@@ -205,9 +208,74 @@ header {
 }
 /* end of banner */
 
+/* LANDING-BOX */
+
+#landing-box {
+  background-color: rgb(218, 165, 32);
+  color: #fff;
+  /* margin: 1.5rem 0; */
+}
+.row-settings {
+  max-width: 1300px !important;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* @media screen and (min-width: 768px) {
+  .row-settings {
+    padding: 0 3rem !important;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  #landing-box {
+    margin: 2rem 1rem;
+    border-radius: 9px;
+  }
+}
+
+.paragraph {
+  display: flex;
+  font-size: 14px;
+  flex-grow: 1;
+  flex-basis: 25%;
+  padding: 0 0 1rem;
+  font-weight: 500;
+}
+.par-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #feeddc;
+  line-height: 1.5rem;
+  padding: 0 0 1em;
+  margin: 0;
+}
+
+.par-title div {
+  color: rgb(0, 110, 51);
+}
+.text-paragraph {
+  line-height: 1.3rem;
+  padding: 0 2rem 0 1rem;
+}
+
+.text-paragraph span {
+  color: red;
+  color: #fdefe1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  padding-top: 0.25rem;
+  display: block;
+  font-weight: 700;
+}
+
+.fa-check {
+  color: rgb(2, 150, 71);
+}
 /* ABOUT */
 #about {
-  padding: 120px 0;
+  padding: 150px 0 0 0;
 }
 .about-img {
   position: relative;
@@ -244,6 +312,11 @@ header {
   margin: 0;
   margin-bottom: 40px;
   border: 0;
+}
+
+/* PRODUCTS */
+#products {
+  padding: 131px 0 0 0;
 }
 
 /* HEADER SECOND */
