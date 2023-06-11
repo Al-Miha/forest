@@ -59,7 +59,8 @@ header {
   padding: 10px 20px;
 }
 
-@media screen and (min-width: 1250px) {
+/* before min-width: 1250px */
+@media screen and (min-width: 992px) {
   .nav-centering {
     padding: 20px 180px;
   }
