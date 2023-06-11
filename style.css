@@ -28,6 +28,18 @@ header {
   font-weight: 900;
 }
 
+@media screen and (min-width: 992px) {
+  .logo-wrapper {
+    width: 70px;
+    height: 70px;
+  }
+  .forest,
+  .mushrooms {
+    font-size: 15px;
+    font-weight: 900;
+  }
+}
+
 .forest {
   color: rgb(0, 110, 51);
 }
