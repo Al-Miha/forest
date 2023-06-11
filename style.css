@@ -291,8 +291,15 @@ header {
 }
 /* ABOUT */
 #about {
-  padding: 150px 0 0 0;
+  padding: 130px 0 0 0;
 }
+
+@media screen and (min-width: 992px) {
+  #about {
+    padding: 170px 0 0 0;
+  }
+}
+
 .about-img {
   position: relative;
 }
@@ -332,7 +339,13 @@ header {
 
 /* PRODUCTS */
 #products {
-  padding: 131px 0 0 0;
+  padding: 100px 0 30px 0;
+}
+
+@media screen and (min-width: 992px) {
+  #products {
+    padding: 150px 0 50px 0;
+  }
 }
 
 /* HEADER SECOND */
@@ -465,7 +478,13 @@ header {
 /* gallery */
 
 #gallery {
-  padding: 150px 0 75px 0;
+  padding: 130px 0 75px 0;
+}
+
+@media screen and (min-width: 992px) {
+  #gallery {
+    padding: 170px 0 0 0;
+  }
 }
 .underline-dark {
   width: 150px;
@@ -593,7 +612,13 @@ header {
 /* CONTACTS */
 #contact {
   background: #f8f8f8;
-  padding: 150px 0;
+  padding: 130px 0;
+}
+
+@media screen and (min-width: 992px) {
+  #contact {
+    padding: 170px 0 0 0;
+  }
 }
 
 .btn-custom {
@@ -666,9 +691,14 @@ iframe {
 
 /* EVENTS */
 #events {
-  padding: 150px 0 75px 0;
+  padding: 130px 0 75px 0;
 }
 
+@media screen and (min-width: 992px) {
+  #events {
+    padding: 170px 0 0 0;
+  }
+}
 #events h1 {
   font-weight: 500;
   font-size: 34px;
