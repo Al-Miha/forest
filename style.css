@@ -780,3 +780,13 @@ iframe {
   background: rgb(2, 150, 71);
   background: rgb(218, 165, 32);
 } */
+
+.booking {
+  background: yellow;
+  padding: 2rem;
+  width: 15rem;
+}
+
+.booking a {
+  text-decoration: none;
+}
